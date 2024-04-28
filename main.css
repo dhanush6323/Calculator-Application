@@ -1,0 +1,73 @@
+/* LET THE STYLING BEGIN */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+ }
+ body{
+    background-image: none;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url(pexels-moose-photos-1037992.jpg);
+    background-size: 100% 100%;
+ }
+ .container{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 6px; 
+    margin-top: 40px;
+ }
+ .container input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: rgb(14, 14, 14);
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #90a09dcd;
+    border-radius: 6px;
+    color: white;
+ }
+.btn input[type='button']:hover{
+    background-color: rgba(48, 156, 156, 0.784);
+    color: rgb(254, 254, 254);
+ }
+#numbers:hover{
+    background-color: rgb(188, 143, 143);
+ }
+ #inputvalue{
+    background-color: rgba(250, 235, 215, 0.463);
+ }
+ h1{
+    color: blue;
+    z-index: 1;
+    margin-bottom: 600px;
+    font-size: 60px;
+    color: rgba(44, 172, 172, 0.529) ;
+ }
+ h1 span{
+    color: rgba(188, 143, 143, 0.808);
+ }
